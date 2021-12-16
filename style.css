@@ -1,0 +1,229 @@
+@font-face {
+	font-family: "SanFransisco";
+	
+	src: url('./fonts/SFUIDisplay-Medium.woff') format("woff")
+}
+@font-face {
+	font-family: "viga";
+	
+	src: url('./fonts/Viga-Regular.woff') format("woff")
+}
+@font-face {
+	font-family: "raleway";
+	
+	src: url('./fonts/Raleway-Regular.woff') format("woff")
+}
+
+@media only screen and (min-width: 540px) {
+	.jumbotron img{
+		margin-left: 10vw;
+	}
+  }
+body#portfolio {
+	font-family: 'SanFransisco';
+	/* background-color: #0F044C; */
+	background-color: #1F1D36;
+	color: #EEEEEE;
+}
+#portfolio nav#nav.navbar{
+	/* background-color: #141e61; */
+	background-color: #1F1D36;
+}
+#nav .navbar-brand{
+	font-family: 'viga';
+}
+.jumbotron{
+	/* background-color: #787A91; */
+	background: #2193b0;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #6dd5ed, #2193b0);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #6dd5ed, #2193b0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+
+	color: #0F044C;
+	padding: 2rem .5rem;
+	height: 100vh;
+	box-sizing: border-box;
+
+
+}
+.jumbotron img{
+	width: 160px;
+	
+	border: 5px solid rgba(255, 255, 255, 0.3);
+	box-shadow: 0 0 0 2px rgb(220, 220, 220);
+	
+}
+.jumbotron .container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.jumbotron .row{
+	height: 80vh
+}
+.jumbotron .col-8{
+	display: flex;
+	
+	flex-direction: column;
+	justify-content: center;
+	text-align: start;
+	
+	
+}
+
+.jumbotron .col-4{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	
+	
+}
+
+
+
+.about{
+	padding: 8rem 1rem;
+	height: 100vh;
+}
+
+.about h2{
+	margin-bottom: 3rem;
+	margin-top: -15px;
+}
+
+.about p{
+	margin-bottom: 3rem;
+	font-family: 'SanFransisco';
+}
+
+
+#skills{
+	margin-top: 50vh;
+	height: 100vh;
+	padding: 3rem;
+}
+#skills h2{
+	margin-bottom: 5rem;
+}
+#skills img{
+	width: 70px;
+	height: 70px;
+	margin-right: 20px;
+
+}
+
+#skills .card-skills{
+	width: 150px;
+	height: 80px;
+	
+	border-radius: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	
+	margin: auto;
+	margin-bottom: 50px;
+}
+#skills .card-skills p{
+	font-size: smaller;
+	margin-left: -15px;
+	margin-top: 5px;
+}
+#skills .card-html{
+	border: 2px solid #E44d26;
+}
+#skills .card-css{
+	border: 2px solid #3699D5;
+}
+#skills .card-js{
+	border: 2px solid #f7df1e;
+}
+#skills .card-js img{
+	border-radius: 45px;
+	width: 65px;
+	height: 65px;
+	margin-left: 5px;
+}
+#skills .card-js p{
+	margin-left: -15px;
+	margin-top: 5px;
+}
+#skills .card-bs{
+	border: 2px solid #563c7c;
+}
+#skills .card-bs img{
+	margin-top:10px;
+}
+#skills .card-bs p{
+	margin-left: -18px;
+	margin-top: 5px;
+}
+#skills .card-react{
+	border: 2px solid #4eb9d9;
+}
+#skills .card-react img{
+	width: 70px;
+	height: 70px;
+}
+#skills .card-react p{
+	font-size: .7rem;
+	margin-left: -28px;
+}
+#projects{
+	min-height: 100vh;
+	margin-top: 50vh;
+}
+#projects h2{
+	margin-bottom: 5rem;
+}
+#projects .card{
+	margin: 30px auto;
+	
+}
+
+#projects .card p,#projects .card h5,#projects .card li{
+	color: #787A91;
+}
+#contact{
+	min-height: 100vh;
+	margin-top: 50vh;
+}
+#contact h2{
+	margin-bottom: 5rem;
+}
+#contact img{
+	width: 50vw;
+
+	max-width: 400px;
+	
+}
+#contact .link{
+	display: flex;
+	align-items: center;
+}
+#contact li{
+	list-style: none;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#contact a{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: smaller;
+	color: #787A91;
+}
+
+footer{
+	width: 100%;
+	height: 8vh;
+	background-color: #62CBE4;
+	text-align: center;
+	color: #1F1D36;
+}
+footer p{
+	line-height: 8vh;
+}
+
+

@@ -69,10 +69,10 @@ body#portfolio {
 	flex-direction: column;
 	justify-content: center;
 	text-align: start;
-	font-size:.9rem
-
-	
-	
+	font-size:.9rem	
+}
+.jumbotron .col-8 .lead{
+	font-size: .75rem;
 }
 
 .jumbotron .col-4{

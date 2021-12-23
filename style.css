@@ -51,28 +51,29 @@ body#portfolio {
 	
 	border: 5px solid rgba(255, 255, 255, 0.3);
 	box-shadow: 0 0 0 2px rgb(220, 220, 220);
-	margin-right: 42px;
+	/* margin-right: 20px; */
+	margin-left: 65px;
 	
 }
 .jumbotron .container{
 	display: flex;
 	align-items: center;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: space-evenly;
 }
 .jumbotron .row{
 	height: 80vh
 }
-.jumbotron .col-8{
+.jumbotron .col-6{
 	display: flex;
 	
 	flex-direction: column;
 	justify-content: center;
 	text-align: start;
-	font-size:.9rem	
+	font-size:.8rem	
 }
-.jumbotron .col-8 .lead{
-	font-size: .75rem;
+.jumbotron .col-6 .lead{
+	font-size: .8rem;
 }
 
 .jumbotron .col-4{
@@ -229,4 +230,9 @@ footer p{
 	line-height: 8vh;
 }
 
+@media only screen and (max-width:370px){
+    .jumbotron p{
+		font-size: .5rem;
+	}
+}
 

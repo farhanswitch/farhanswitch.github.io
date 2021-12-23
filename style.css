@@ -51,6 +51,7 @@ body#portfolio {
 	
 	border: 5px solid rgba(255, 255, 255, 0.3);
 	box-shadow: 0 0 0 2px rgb(220, 220, 220);
+	margin-right: 42px;
 	
 }
 .jumbotron .container{
@@ -68,6 +69,8 @@ body#portfolio {
 	flex-direction: column;
 	justify-content: center;
 	text-align: start;
+	font-size:.9rem
+
 	
 	
 }

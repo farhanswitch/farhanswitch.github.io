@@ -184,11 +184,13 @@ body#portfolio {
 }
 #projects .card{
 	margin: 30px auto;
+	min-height: 550px;
+	box-shadow: 3px 3px 3px rgba(255, 255, 255, 0.3);
 	
 }
 
 #projects .card p,#projects .card h5,#projects .card li{
-	color: #787A91;
+	color: #151518;
 }
 #contact{
 	min-height: 100vh;

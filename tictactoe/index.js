@@ -1,0 +1,1 @@
+window.location.replace('https://fswitch-tictactoe.netlify.app/')

@@ -16,7 +16,7 @@ export default function Project() {
             </div>
             <div className="h-full relative w-2/3 py-6 bg-lynch px-8">
               <h3 className="font-semibold text-xl">
-                Caesar Cipher{" "}
+                Caesar Cipher
                 <span className="hidden md:inline-block">| Cryptography</span>
               </h3>
               <h3 className="font-semibold text-xl md:hidden">

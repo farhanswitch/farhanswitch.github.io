@@ -166,7 +166,7 @@ export default function Project() {
         <CarouselItem>
           <>
             <div className="h-full pl-[3.5vw] pr-1 bg-brandy grid place-items-center w-1/3">
-              <img src="/todo.jpg" alt="ToDo app" />
+              <img src="/todo.webp" alt="ToDo app" />
             </div>
             <div className="h-full relative w-2/3 py-6 bg-brandy px-8">
               <h3 className="font-semibold text-xl">ToDo App</h3>

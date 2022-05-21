@@ -6,8 +6,8 @@ export default function Contact() {
   return (
     <section className="text-sansf text-base py-3" id="contact">
       <h2 className="text-center text-2xl mb-14">Contact Me</h2>
-      <div className="flex justify-evenly items-center mb-14">
-        <div className="w-max p-3 rounded-tl-3xl rounded-b-3xl grid place-items-center h-full bg-violet-700/60">
+      <div className="block md:flex justify-evenly items-center mb-14">
+        <div className="w-max p-3 rounded-tl-3xl rounded-b-3xl mx-auto mb-6 md:m-0  grid place-items-center h-full bg-violet-700/60">
           <img
             src="/farhan.webp"
             alt="Farhan"
@@ -17,13 +17,13 @@ export default function Contact() {
           />
         </div>
         <div className="flex items-center">
-          <ul className="block font-sansf">
+          <ul className="block mx-auto font-sansf">
             <a href="mailto://farhansketch@icloud.com">
               <li className="mb-2 px-4 py-2 border text-center bg-brandy shadow-lg shadow-brandy/60 text-white rounded-md flex items-center gap-2">
                 <div className="p-2 bg-white text-2xl text-slate-600 rounded">
                   <MdEmail />
                 </div>
-                <p className="tracking-widest">farhansketch@icloud.com</p>
+                <p className="md:tracking-widest">farhansketch@icloud.com</p>
               </li>
             </a>
             <a href="mailto://muhammad_farhan@outlook.co.id">
@@ -31,7 +31,9 @@ export default function Contact() {
                 <div className="p-2 bg-white text-2xl text-slate-600 rounded">
                   <MdEmail />
                 </div>
-                <p className="tracking-widest">muhammad_farhan@outlook.co.id</p>
+                <p className="md:tracking-widest">
+                  muhammad_farhan@outlook.co.id
+                </p>
               </li>
             </a>
             <a href="https://linkedin.com/in/farhanswitch">
@@ -39,7 +41,7 @@ export default function Contact() {
                 <div className="p-2 bg-white text-2xl text-slate-600 rounded">
                   <BsLinkedin />
                 </div>
-                <p className="tracking-widest">FarhanSwitch</p>
+                <p className="md:tracking-widest">FarhanSwitch</p>
               </li>
             </a>
             <a href="https://github.com/farhanswitch">
@@ -47,7 +49,7 @@ export default function Contact() {
                 <div className="p-2 bg-white text-2xl text-slate-600 rounded">
                   <FaGithub />
                 </div>
-                <p className="tracking-widest">FarhanSwitch</p>
+                <p className="md:tracking-widest">FarhanSwitch</p>
               </li>
             </a>
           </ul>

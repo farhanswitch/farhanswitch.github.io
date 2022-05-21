@@ -24,12 +24,12 @@ const Nav: React.FC = () => {
           </h1>
         </div>
         <ul
-          className={`md:flex items-center gap-2 font-sansf sticky md:static mt-4 md:mt-0 w-full md:w-auto z-[-1] md:z-auto left-0 px-3 py-1 md:p-0 ${
+          className={`md:flex items-center gap-2 font-sansf sticky md:static mt-4 md:mt-0 w-full md:w-auto z-auto md:z-auto left-0 px-3 py-1 md:p-0 ${
             open ? "block" : "hidden"
           }`}
         >
           <a href={"#about"}>
-            <li className="my-2 md:m-0 cursor-pointer w-full md:w-auto">
+            <li className="my-2   md:m-0 cursor-pointer w-full md:w-auto">
               About
             </li>
           </a>

@@ -561,6 +561,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   z-index: -1;
 }
 
+.z-\[10000\] {
+  z-index: 10000;
+}
+
+.z-auto {
+  z-index: auto;
+}
+
 .m-auto {
   margin: auto;
 }

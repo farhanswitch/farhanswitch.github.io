@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sansf: ["sansf","ui-serif","serif"],
-        viga: ["viga","ui-serif","serif"],
+        sansf: ["sansf"],
+        viga: ["viga"],
       },
       colors: {
         herogray: "#f7f7f7",

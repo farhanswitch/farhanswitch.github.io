@@ -19,7 +19,7 @@ const Nav: React.FC = () => {
               <HiOutlineMenuAlt2 className="md:hidden" />
             )}
           </div>
-          <h1 className="font-semibold tracking-wider">
+          <h1 className="font-semibold font-viga tracking-wider">
             {"<FarhanSwitch />"}{" "}
           </h1>
         </div>

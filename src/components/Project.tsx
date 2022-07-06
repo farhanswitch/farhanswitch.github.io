@@ -38,7 +38,12 @@ export default function Project() {
                 </div>
               </div>
               <div className="w-max absolute bottom-3 md:bottom-6 right-4 text-md px-4 py-2 flex gap-4">
-                <a href="http://github.com/farhanswitch/php-crud-contacts">
+                <a href="https://fswitch-gramedia.netlify.app">
+                  <div className="px-4 py-1 tracking-wide rounded-md shadow shadow-white bg-white text-rosyBrown">
+                    Demo
+                  </div>
+                </a>
+                <a href="https://github.com/farhanswitch/clone-gramedia">
                   <div className="rounded-lg after:w-[40%] after:h-1 after:block after:bg-white">
                     {"Repository"}
                   </div>

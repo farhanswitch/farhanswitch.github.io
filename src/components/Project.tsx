@@ -8,7 +8,7 @@ export default function Project() {
       <Carousel>
         <CarouselItem>
           <>
-            <div className="h-full bg-teal-500 pl-[3.5vw] pr-1 grid place-items-center w-1/3">
+            <div className="h-full bg-lynch pl-[3.5vw] pr-1 grid place-items-center w-1/3">
               <img
                 src="/bookstore.jpg"
                 alt="bookstore"

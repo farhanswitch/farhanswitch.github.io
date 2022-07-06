@@ -18,12 +18,14 @@ export default function Contact() {
         </div>
         <div className="flex items-center">
           <ul className="block mx-auto font-sansf">
-            <a href="mailto://farhansketch@icloud.com">
+            <a href="mailto://farhan.muhammad11@programmer.net">
               <li className="mb-2 px-4 py-2 border text-center bg-brandy shadow-lg shadow-brandy/60 text-white rounded-md flex items-center gap-2">
                 <div className="p-2 bg-white text-2xl text-slate-600 rounded">
                   <MdEmail />
                 </div>
-                <p className="md:tracking-widest">farhansketch@icloud.com</p>
+                <p className="text-xs md:tracking-wide">
+                  farhan.muhammad11@programmer.net
+                </p>
               </li>
             </a>
             <a href="mailto://muhammad_farhan@outlook.co.id">

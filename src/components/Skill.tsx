@@ -11,7 +11,8 @@ export default function Skill() {
     { name: "TailwindCSS", color: "bg-sky-300" },
     { name: "NextJS", color: "bg-black" },
     { name: "ReactJS", color: "bg-sky-500" },
-    { name: "Python", color: "bg-cyan-700" },
+    { name: "PHP", color: "bg-cyan-700" },
+    {name:"MySQL", color:"bg-orange-500"}
   ];
   return (
     <section id="skills" className="w-full bg-white h-max px-6 pt-20 pb-26">

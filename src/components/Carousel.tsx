@@ -11,7 +11,7 @@ export function CarouselItem({ children, width }: ItemProps) {
   return (
     <div
       className="carousel-item px-3 md:px-0 inline-flex h-[300px]  text-white"
-      style={{ width: width }}
+      style={{ width }}
     >
       {children}
     </div>
@@ -19,7 +19,7 @@ export function CarouselItem({ children, width }: ItemProps) {
 }
 
 export default function Carousel({ children }: Props) {
-  const [index, setIndex] = useState<number>(2);
+  const [index, setIndex] = useState<number>(0);
   const updateIndex = (newIndex: number) => {
     let indexNow = newIndex;
     if (indexNow < 0) {
@@ -28,7 +28,6 @@ export default function Carousel({ children }: Props) {
       indexNow = 0;
     }
     setIndex(indexNow);
-    console.log(index);
   };
   useEffect(() => {
     const interval = setInterval(() => {
